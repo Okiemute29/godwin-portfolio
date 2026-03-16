@@ -278,14 +278,18 @@ img { display: block; max-width: 100%; height: auto; }
   .nav__logo { align-self: initial; }
   .nav__menu {
     position: initial;
+    top: initial;
+    right: initial;
     width: initial;
+    max-width: initial;
     height: initial;
     background: none;
     padding: 0;
     box-shadow: none;
     flex-direction: row;
+    transition: none;
   }
-  .nav__list { flex-direction: row; column-gap: 5.5rem; }
+  .nav__list { flex-direction: row; row-gap: 0; column-gap: 5.5rem; }
   .nav__toggle { display: none; }
   .nav__close { display: none; }
   .home__container { width: initial; padding-top: 3rem; }
