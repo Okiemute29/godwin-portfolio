@@ -1,0 +1,7 @@
+export { personalInfo } from './personalInfo'
+export { socialLinks } from './social'
+export { projects } from './projects'
+export { experiences } from './experience'
+export { educations } from './education'
+export { services } from './services'
+export { testimonials } from './testimonials'
