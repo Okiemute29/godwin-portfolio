@@ -2,12 +2,12 @@ export const socialLinks = [
   {
     label: 'LinkedIn',
     icon: 'ri-linkedin-fill',
-    url: '#',
+    url: 'https://www.linkedin.com/in/godwin-robert-9b1a0b20b/',
   },
   {
     label: 'GitHub',
     icon: 'ri-github-line',
-    url: '#',
+    url: 'https://github.com/Okiemute29',
   },
   {
     label: 'WhatsApp',
