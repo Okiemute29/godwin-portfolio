@@ -1,9 +1,9 @@
-import { Code2, Sparkles, Zap } from "lucide-react";
+import { Globe, Layers, PackageCheck } from "lucide-react";
 
 const features = [
-  { icon: Code2, title: "Clean Code", desc: "Maintainable, well-tested components and design systems." },
-  { icon: Sparkles, title: "Pixel-Perfect UI", desc: "Translating designs into responsive, polished interfaces." },
-  { icon: Zap, title: "Fast & Accessible", desc: "Optimized performance with a11y baked in by default." },
+  { icon: Layers, title: "Design to Code", desc: "I read Figma files like source code — spacing, hierarchy and intent translate directly into how I structure components." },
+  { icon: Globe, title: "Cross-Domain Range", desc: "Billing systems, payment flows, marketing sites — working across fintech and social impact keeps the thinking sharp and the solutions non-obvious." },
+  { icon: PackageCheck, title: "Shipped, Not Staged", desc: "Every project I list has real users. I'm more interested in what happens after deployment than before." },
 ];
 
 const About = () => (
@@ -15,9 +15,11 @@ const About = () => (
           Turning ideas into <span className="text-gradient">delightful interfaces</span>
         </h2>
         <p className="mt-6 text-muted-foreground text-lg">
-          I'm a frontend developer with a passion for design-led engineering. I work
-          with founders and teams to ship modern web products — from sleek landing pages
-          to complex dashboards — using React, Next.js, TypeScript and Tailwind CSS.
+          Most frontend developers stop at "it renders correctly." I stop at — does this feel
+          right when the network is slow, the screen is small, and the user is distracted?
+          Three years across fintech, social impact, and agency work — React, TypeScript, and
+          an unreasonable attention to detail. Currently at Human Development Fund, building
+          interfaces that make complex systems feel simple.
         </p>
       </div>
 

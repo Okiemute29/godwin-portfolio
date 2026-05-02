@@ -1,5 +1,5 @@
 import { ArrowRight, Download, Github, Linkedin, MapPin } from "lucide-react";
-import profile from "@/assets/profile.jpg";
+import profile from "@/assets/profile-1.png";
 
 const Hero = () => {
   return (
@@ -34,16 +34,17 @@ const Hero = () => {
               View My Work <ArrowRight className="w-4 h-4" />
             </a>
             <a
-              href="#contact"
+              href="/Robert-Godwin-Resume.pdf"
+              download="Robert-Godwin-Resume.pdf"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass text-foreground font-medium hover:border-primary transition-all"
             >
-              <Download className="w-4 h-4" /> Get in Touch
+              <Download className="w-4 h-4" /> Download CV
             </a>
           </div>
 
           <div className="mt-8 flex items-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/Okiemute29"
               target="_blank"
               rel="noreferrer"
               className="w-10 h-10 rounded-full glass flex items-center justify-center hover:text-primary transition-colors"
@@ -52,7 +53,7 @@ const Hero = () => {
               <Github className="w-4 h-4" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/godwin-robert-9b1a0b20b/"
               target="_blank"
               rel="noreferrer"
               className="w-10 h-10 rounded-full glass flex items-center justify-center hover:text-primary transition-colors"
@@ -71,17 +72,17 @@ const Hero = () => {
               alt="Portrait of Robert Godwin, frontend developer based in Lagos, Nigeria"
               width={1024}
               height={1024}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover [transform:scaleX(-1)]"
             />
           </div>
           <div className="absolute -bottom-4 -left-4 glass px-4 py-3 rounded-2xl shadow-card hidden sm:block">
-            <div className="text-2xl font-display font-bold text-gradient">3+</div>
+            <div className="text-2xl font-display font-bold text-gradient">4+</div>
             <div className="text-xs text-muted-foreground">Years experience</div>
           </div>
-          <div className="absolute -top-4 -right-4 glass px-4 py-3 rounded-2xl shadow-card hidden sm:block">
+          {/* <div className="absolute -top-4 -right-4 glass px-4 py-3 rounded-2xl shadow-card hidden sm:block">
             <div className="text-2xl font-display font-bold text-gradient">20+</div>
             <div className="text-xs text-muted-foreground">Projects delivered</div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

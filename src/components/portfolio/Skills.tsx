@@ -1,4 +1,4 @@
-const skills = ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Bootstrap", "Redux", "REST APIs", "Git", "GitHub", "Figma", "Framer Motion", "Vite"];
+const skills = ["HTML", "CSS", "JavaScript", "TypeScript", "React JS", "Next.js", "Tailwind CSS", "Bootstrap CSS", "RESTful APIs", "Git", "GitHub", "VS Code", "WordPress", "CRM Platforms", "Claude", "ChatGPT"];
 
 const Skills = () => (
   <section id="skills" className="py-20 md:py-28 bg-muted/30">

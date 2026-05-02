@@ -1,12 +1,12 @@
 import { ArrowUpRight } from "lucide-react";
-import p1 from "@/assets/project-1.jpg";
-import p2 from "@/assets/project-2.jpg";
-import p3 from "@/assets/project-3.jpg";
+import p1 from "@/assets/project-1.png";
+import p2 from "@/assets/project-2.png";
+import p3 from "@/assets/project-3.webp";
 
 const projects = [
-  { img: p1, title: "Analytics Dashboard", type: "Web App", tech: ["React", "TypeScript", "Tailwind"], link: "#" },
-  { img: p2, title: "Modern E-commerce", type: "Storefront", tech: ["Next.js", "Stripe", "Tailwind"], link: "#" },
-  { img: p3, title: "Fintech Mobile App", type: "Mobile UI", tech: ["React Native", "TypeScript"], link: "#" },
+  { img: p1, title: "GetBilling (Billing Plus)", type: "Web App", tech: ["React", "JavaScript", "HTML", "CSS", "REST APIs"], link: "https://carburant.io/portfolio/billing-plus" },
+  { img: p2, title: "PayBond", type: "Web App", tech: ["React", "JavaScript", "HTML", "CSS"], link: "https://paybond-staging.vercel.app/" },
+  { img: p3, title: "Martial Arts In The Park", type: "Website", tech: ["HTML", "CSS", "JavaScript", "WordPress"], link: "https://carburant.io/portfolio/maitp/" },
 ];
 
 const Projects = () => (

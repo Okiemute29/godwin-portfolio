@@ -1,13 +1,13 @@
 import { Briefcase, GraduationCap } from "lucide-react";
 
 const experience = [
-  { title: "Frontend Developer", company: "Human Development Fund", period: "2023 — Present", desc: "Building accessible web platforms and design systems for social impact products." },
-  { title: "Frontend Developer", company: "Big Gorilla Apps", period: "2022 — 2023", desc: "Shipped React + Next.js features for client-facing apps with a focus on UX." },
-  { title: "Junior Developer", company: "Carburrant Technology", period: "2021 — 2022", desc: "Built responsive marketing sites and landing pages with modern web stacks." },
+  { title: "Frontend Developer (React)", company: "Human Development Fund (HDF)", period: "2025 — Present", desc: "Develop responsive, accessible React frontends using component-driven architecture, hooks and context. Collaborate with designers and backend engineers to integrate APIs and ship features end-to-end." },
+  { title: "Frontend Developer", company: "Big Gorilla Apps", period: "Dec 2023 — 2025", desc: "Managed and maintained company and client websites. Developed and launched new websites and landing pages tailored to client requirements. Worked with CRM platforms and customised WordPress solutions." },
+  { title: "Frontend Engineer", company: "Carburrant Technology Limited", period: "Jan 2022 — Present", desc: "Partnered with UX/UI designers to implement responsive interfaces across desktop, tablet, and mobile. Leveraged HTML5, CSS3, and JavaScript to develop dynamic features and integrated RESTful APIs." },
 ];
 
 const education = [
-  { title: "B.Sc. Computer Science", company: "University of Benin", period: "2017 — 2021", desc: "Focused on CS fundamentals while building a self-taught web development practice." },
+  { title: "B.Sc. Computer Science", company: "University of Benin", period: "2018 — 2023", desc: "Bachelor of Science in Computer Science, building a strong foundation in programming, problem-solving, software development, and web technologies." },
 ];
 
 const Item = ({ title, company, period, desc }: { title: string; company: string; period: string; desc: string }) => (
