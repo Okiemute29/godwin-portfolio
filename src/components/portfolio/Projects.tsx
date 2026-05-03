@@ -4,9 +4,9 @@ import p2 from "@/assets/project-2.png";
 import p3 from "@/assets/project-3.webp";
 
 const projects = [
-  { img: p1, title: "GetBilling (Billing Plus)", type: "Web App", tech: ["React", "JavaScript", "HTML", "CSS", "REST APIs"], link: "https://carburant.io/portfolio/billing-plus" },
-  { img: p2, title: "PayBond", type: "Web App", tech: ["React", "JavaScript", "HTML", "CSS"], link: "https://paybond-staging.vercel.app/" },
-  { img: p3, title: "Martial Arts In The Park", type: "Website", tech: ["HTML", "CSS", "JavaScript", "WordPress"], link: "https://carburant.io/portfolio/maitp/" },
+  { img: p1, title: "GetBilling (Billing Plus)", type: "Web App", tech: ["React", "JavaScript", "HTML", "CSS", "REST APIs"], link: "https://carburant.io/portfolio/billing-plus", bg: "bg-gradient-to-br from-blue-950 to-indigo-900" },
+  { img: p2, title: "PayBond", type: "Web App", tech: ["React", "JavaScript", "HTML", "CSS"], link: "https://paybond-staging.vercel.app/", bg: "bg-gradient-to-br from-violet-950 to-purple-900" },
+  { img: p3, title: "Martial Arts In The Park", type: "Website", tech: ["HTML", "CSS", "JavaScript", "WordPress"], link: "https://carburant.io/portfolio/maitp/", bg: "bg-gradient-to-br from-emerald-950 to-teal-900" },
 ];
 
 const Projects = () => (
@@ -25,9 +25,9 @@ const Projects = () => (
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((p) => (
-          <a key={p.title} href={p.link} className="group relative glass rounded-2xl overflow-hidden hover:border-primary transition-all hover:-translate-y-1">
-            <div className="aspect-[4/3] overflow-hidden bg-secondary">
-              <img src={p.img} alt={`${p.title} screenshot`} loading="lazy" width={1280} height={800} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <a key={p.title} href={p.link} target="_blank" rel="noreferrer" className="group relative glass rounded-2xl overflow-hidden hover:border-primary transition-all hover:-translate-y-1">
+            <div className={`aspect-[4/3] overflow-hidden ${p.bg} flex items-center justify-center p-4`}>
+              <img src={p.img} alt={`${p.title} screenshot`} loading="lazy" width={1280} height={800} className="w-full h-full object-contain rounded-lg shadow-lg transition-transform duration-700 group-hover:scale-105" />
             </div>
             <div className="p-6">
               <div className="flex items-start justify-between gap-3">
