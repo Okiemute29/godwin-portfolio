@@ -33,16 +33,16 @@ function Projects() {
         <Swiper
           className="projects__swiper"
           modules={[Pagination, Autoplay]}
-          loop={count > 1}
+          loop={false}
           pagination={{ clickable: true }}
-          autoplay={count > 1 ? { delay: 3000, disableOnInteraction: false } : false}
           spaceBetween={24}
           grabCursor={true}
           speed={600}
+          slidesPerView={1}
           breakpoints={{
-            320: { slidesPerView: 1 },
-            768: { slidesPerView: Math.min(2, count) },
-            1150: { slidesPerView: Math.min(3, count) },
+            480:  { slidesPerView: Math.min(2, count) },
+            640:  { slidesPerView: Math.min(3, count) },
+            1024: { slidesPerView: Math.min(4, count) },
           }}
         >
           {projects.map((project) => (
