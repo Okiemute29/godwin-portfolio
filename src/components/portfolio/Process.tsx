@@ -12,8 +12,13 @@ const Process = () => (
       <Reveal className="max-w-2xl mb-14 md:mb-20">
         <p className="meta text-primary mb-4">How I Work</p>
         <h2 className="font-display text-display-sm font-semibold leading-tight">
-          Explore, plan, confirm, test, build, validate, ship.
+          Explore, plan, confirm, write tests, implement, validate, commit.
         </h2>
+        <p className="mt-6 max-w-xl text-lg text-muted-foreground">
+          I like understanding a problem before I start changing code. For larger tasks, I
+          usually explore what's already there, work out a plan, confirm the direction,
+          write the relevant tests, implement it and validate everything before committing.
+        </p>
       </Reveal>
 
       <Reveal className="relative">

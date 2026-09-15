@@ -6,10 +6,10 @@ export interface CapabilityGroup {
 }
 
 export const capabilityGroups: CapabilityGroup[] = [
-  { title: "Interfaces", items: ["React", "Next.js", "TypeScript", "Responsive UI", "Design systems"] },
-  { title: "Product Systems", items: ["Admin dashboards", "Multi-step workflows", "Payments", "User management", "Reporting"] },
-  { title: "Integrations", items: ["REST APIs", "Supabase", "Paystack", "FundraiseUp", "Analytics", "Sentry"] },
-  { title: "Quality", items: ["Vitest", "Testing Library", "Jest", "Error monitoring", "Performance"] },
+  { title: "Core Stack", items: ["React", "Next.js", "TypeScript", "JavaScript"] },
+  { title: "State & Tooling", items: ["Redux Toolkit", "Tailwind CSS", "REST APIs", "Git/GitHub"] },
+  { title: "Backend & Data", items: ["Supabase", "WebSockets", "Sanity"] },
+  { title: "Testing & Other Tools", items: ["Jest", "Vitest", "Figma", "WordPress", "Squarespace"] },
 ];
 
 export interface ProcessStep {
@@ -19,13 +19,13 @@ export interface ProcessStep {
 }
 
 export const processSteps: ProcessStep[] = [
-  { step: "01", title: "Explore", desc: "Understand the user, workflow, and constraints before implementation." },
-  { step: "02", title: "Plan", desc: "Break complex requirements into clear states, components, and API contracts." },
-  { step: "03", title: "Confirm", desc: "Align on behavior and expected outcomes before implementation expands." },
-  { step: "04", title: "Test", desc: "Define critical behavior and failure paths before production changes." },
-  { step: "05", title: "Build", desc: "Implement reusable interfaces with maintainability in mind." },
-  { step: "06", title: "Validate", desc: "Check functionality, edge cases, responsiveness, and production behavior." },
-  { step: "07", title: "Ship", desc: "Deploy, monitor, and iterate from real usage." },
+  { step: "01", title: "Explore", desc: "Look at what's already there and understand the problem before touching code." },
+  { step: "02", title: "Plan", desc: "Break the work into clear states, components and API contracts." },
+  { step: "03", title: "Confirm", desc: "Check the direction makes sense before the implementation grows." },
+  { step: "04", title: "Write Tests", desc: "Write tests for the behavior that actually matters, before building it out." },
+  { step: "05", title: "Implement", desc: "Build it, keeping components reusable where it makes sense." },
+  { step: "06", title: "Validate", desc: "Check edge cases, responsiveness, and how it behaves in production-like conditions." },
+  { step: "07", title: "Commit", desc: "Commit the change and move on to the next thing." },
 ];
 
 export interface TimelineItem {
@@ -40,19 +40,19 @@ export const experience: TimelineItem[] = [
     title: "Frontend Engineer",
     company: "Sabiqun Tech",
     period: "2025 — Present",
-    desc: "Build React frontends end-to-end for client products, including the Human Development Fund's (HDF) Grant Portal and MyGiving donor platform. Own frontend implementation from requirements through production — application and admin workflows, complex forms and validation, REST API integration, and reusable component systems.",
+    desc: "I build frontend for client products here, including the Human Development Fund's Grant Portal and MyGiving donor platform. I own the frontend end-to-end, from requirements through production, rather than just building screens.",
   },
   {
     title: "Frontend Developer",
     company: "Big Gorilla Apps",
     period: "Dec 2023 — 2025",
-    desc: "Managed and maintained company and client websites. Developed and launched new websites and landing pages tailored to client requirements. Worked with CRM platforms and customised WordPress solutions.",
+    desc: "Built and maintained websites for the company and its clients — new sites, landing pages, and ongoing updates, mostly on WordPress and Squarespace, plus some CRM work.",
   },
   {
     title: "Frontend Engineer",
     company: "Carburrant Technology",
     period: "Jan 2022 — Present",
-    desc: "Partnered with UX/UI designers and backend engineers to implement responsive interfaces across desktop, tablet, and mobile as part of the product team. Leveraged HTML5, CSS3, and JavaScript to develop dynamic features and integrated RESTful APIs.",
+    desc: "I work on frontend features here as part of a team — responsive interfaces, reusable components, and connecting the UI to backend APIs, alongside designers and backend engineers.",
   },
 ];
 
@@ -67,10 +67,10 @@ export const education: TimelineItem[] = [
 
 export const journey = {
   headline: "From building interfaces to shipping full products end-to-end.",
-  body: "Robert started with client websites and frontend development focused on responsive interfaces. Over time, his work moved deeper into production frontend systems — dashboards, authentication, payments, data-heavy workflows, analytics, and operational tooling — then into owning complex product workflows end-to-end as a frontend engineer. With Zitu, he took that further, building a product completely on his own: frontend, Supabase-backed data and auth, and Paystack payments. Today, he is most interested in frontend engineering roles where UI quality and product thinking matter equally.",
+  body: "I started out building client websites and simple interfaces. Over time that turned into production frontend work — dashboards, authentication, payments, and admin tooling for real users. At Sabiqun Tech, I've been owning frontend work end-to-end rather than just building screens. With Zitu, I went further and built a product on my own — frontend, Supabase and Paystack included. These days I'm mostly interested in frontend engineering roles where the UI quality and the product thinking both matter.",
   milestones: [
     { period: "2022", label: "Frontend Engineer, Carburrant Technology", desc: "Responsive interfaces, RESTful API integration." },
-    { period: "2023", label: "Frontend Developer, Big Gorilla Apps", desc: "Client sites, CRM platforms, WordPress solutions." },
-    { period: "2025", label: "Frontend Engineer, Sabiqun Tech", desc: "End-to-end frontend ownership — production dashboards, payments, operational tooling." },
+    { period: "2023", label: "Frontend Developer, Big Gorilla Apps", desc: "Client sites on WordPress and Squarespace, plus CRM platforms." },
+    { period: "2025", label: "Frontend Engineer, Sabiqun Tech", desc: "Owning frontend work end-to-end — dashboards, payments, admin tooling." },
   ],
 };

@@ -16,7 +16,7 @@ npm run test:watch   # Run tests in watch mode
 
 ## Architecture
 
-This is an editorial, case-study-driven portfolio website for Robert Godwin (Frontend Developer), built with React 18 + TypeScript + Vite.
+This is an editorial, case-study-driven portfolio website for Robert Godwin (Frontend Engineer), built with React 18 + TypeScript + Vite.
 
 **Stack**: React Router v6, TanStack React Query v5, React Hook Form + Zod, Tailwind CSS, shadcn/ui (Radix UI primitives), Sonner toasts, Lucide icons.
 

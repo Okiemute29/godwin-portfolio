@@ -15,11 +15,16 @@ const About = () => (
           Turning ideas into delightful interfaces
         </h2>
         <p className="mt-6 text-muted-foreground text-lg">
-          Most frontend developers stop at "it renders correctly." I stop at — does this feel
-          right when the network is slow, the screen is small, and the user is distracted?
-          Three years across fintech, social impact, and agency work — React, TypeScript, and
-          an unreasonable attention to detail. Currently at Sabiqun Tech, building
-          interfaces that make complex systems feel simple.
+          I've spent the last few years building products for real users — from client
+          websites to dashboards and larger web applications. Most of my work now involves
+          taking complicated requirements and turning them into interfaces that are easier
+          to understand and use.
+        </p>
+        <p className="mt-4 text-muted-foreground text-lg">
+          I work mainly with React, Next.js, TypeScript and JavaScript. Beyond the UI itself,
+          I spend a lot of time thinking about application structure, API integration,
+          state management, testing, performance, and what happens when things go wrong in
+          production.
         </p>
       </Reveal>
 
