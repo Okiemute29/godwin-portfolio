@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import tailwindcssAnimate from "tailwindcss-animate";
 
 export default {
   darkMode: ["class"],
@@ -65,7 +66,14 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
-        display: ['"Space Grotesk"', 'Inter', 'sans-serif'],
+        display: ['Fraunces', 'Georgia', 'serif'],
+        mono: ['"IBM Plex Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace'],
+      },
+      fontSize: {
+        "display-sm": ["clamp(2.25rem, 1.8rem + 2vw, 3.25rem)", { lineHeight: "1.05", letterSpacing: "-0.01em" }],
+        "display-md": ["clamp(2.75rem, 2rem + 3.2vw, 4.5rem)", { lineHeight: "1.02", letterSpacing: "-0.015em" }],
+        "display-lg": ["clamp(3.25rem, 2.2rem + 4.8vw, 6rem)", { lineHeight: "0.98", letterSpacing: "-0.02em" }],
+        "display-xl": ["clamp(3.75rem, 2.2rem + 7vw, 8rem)", { lineHeight: "0.94", letterSpacing: "-0.025em" }],
       },
       keyframes: {
         "accordion-down": {
@@ -91,5 +99,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate],
 } satisfies Config;
