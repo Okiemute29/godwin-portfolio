@@ -5,9 +5,12 @@ const AdditionalWork = () => (
   <section className="py-16 md:py-20 bg-secondary/20">
     <div className="container">
       <Reveal className="flex flex-col md:flex-row md:items-center gap-6 md:gap-10">
-        <p className="text-sm font-medium text-primary uppercase tracking-wider whitespace-nowrap">
-          Additional Client Work
-        </p>
+        <div className="whitespace-nowrap">
+          <p className="text-sm font-medium text-primary uppercase tracking-wider">
+            Additional Client Work
+          </p>
+          <p className="mt-1 text-xs text-muted-foreground/70">While at Big Gorilla Apps</p>
+        </div>
         <div className="flex flex-wrap gap-x-8 gap-y-3">
           {additionalClientWork.map((c) =>
             c.link ? (

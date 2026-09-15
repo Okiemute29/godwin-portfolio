@@ -23,7 +23,8 @@ const ContactCTA = () => {
             Building something ambitious?
           </h2>
           <p className="mt-6 text-muted-foreground text-lg">
-            I'm open to frontend engineering opportunities and product-focused collaborations.
+            I'm open to frontend engineering roles and interesting products where I can solve
+            real problems and keep growing as an engineer.
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-4">
