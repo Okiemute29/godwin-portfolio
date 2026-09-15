@@ -18,7 +18,7 @@ const About = () => (
           Most frontend developers stop at "it renders correctly." I stop at — does this feel
           right when the network is slow, the screen is small, and the user is distracted?
           Three years across fintech, social impact, and agency work — React, TypeScript, and
-          an unreasonable attention to detail. Currently at Human Development Fund, building
+          an unreasonable attention to detail. Currently at Sabiqun Tech, building
           interfaces that make complex systems feel simple.
         </p>
       </Reveal>

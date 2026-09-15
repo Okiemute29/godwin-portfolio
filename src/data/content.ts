@@ -37,10 +37,10 @@ export interface TimelineItem {
 
 export const experience: TimelineItem[] = [
   {
-    title: "Frontend Developer (React)",
-    company: "Human Development Fund (HDF)",
+    title: "Frontend Engineer",
+    company: "Sabiqun Tech",
     period: "2025 — Present",
-    desc: "Develop responsive, accessible React frontends using component-driven architecture, hooks and context. Collaborate with designers and backend engineers to integrate APIs and ship features end-to-end.",
+    desc: "Build React frontends end-to-end for client products, including the Human Development Fund's (HDF) Grant Portal and MyGiving donor platform. Own frontend implementation from requirements through production — application and admin workflows, complex forms and validation, REST API integration, and reusable component systems.",
   },
   {
     title: "Frontend Developer",
@@ -50,9 +50,9 @@ export const experience: TimelineItem[] = [
   },
   {
     title: "Frontend Engineer",
-    company: "Carburrant Technology Limited",
+    company: "Carburrant Technology",
     period: "Jan 2022 — Present",
-    desc: "Partnered with UX/UI designers to implement responsive interfaces across desktop, tablet, and mobile. Leveraged HTML5, CSS3, and JavaScript to develop dynamic features and integrated RESTful APIs.",
+    desc: "Partnered with UX/UI designers and backend engineers to implement responsive interfaces across desktop, tablet, and mobile as part of the product team. Leveraged HTML5, CSS3, and JavaScript to develop dynamic features and integrated RESTful APIs.",
   },
 ];
 
@@ -66,11 +66,11 @@ export const education: TimelineItem[] = [
 ];
 
 export const journey = {
-  headline: "From building interfaces to owning product workflows.",
-  body: "Robert started with frontend development focused on responsive interfaces. Over time, his work moved deeper into production systems — dashboards, authentication, payments, data-heavy workflows, analytics, and operational tooling. Today, he is most interested in frontend engineering roles where UI quality and product thinking matter equally.",
+  headline: "From building interfaces to shipping full products end-to-end.",
+  body: "Robert started with client websites and frontend development focused on responsive interfaces. Over time, his work moved deeper into production frontend systems — dashboards, authentication, payments, data-heavy workflows, analytics, and operational tooling — then into owning complex product workflows end-to-end as a frontend engineer. With Zitu, he took that further, building a product completely on his own: frontend, Supabase-backed data and auth, and Paystack payments. Today, he is most interested in frontend engineering roles where UI quality and product thinking matter equally.",
   milestones: [
-    { period: "2022", label: "Frontend Engineer, Carburant", desc: "Responsive interfaces, RESTful API integration." },
+    { period: "2022", label: "Frontend Engineer, Carburrant Technology", desc: "Responsive interfaces, RESTful API integration." },
     { period: "2023", label: "Frontend Developer, Big Gorilla Apps", desc: "Client sites, CRM platforms, WordPress solutions." },
-    { period: "2025", label: "Frontend Developer, HDF", desc: "Production dashboards, payments, operational tooling." },
+    { period: "2025", label: "Frontend Engineer, Sabiqun Tech", desc: "End-to-end frontend ownership — production dashboards, payments, operational tooling." },
   ],
 };
